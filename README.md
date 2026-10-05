@@ -1,5 +1,8 @@
 # 多城市空气质量监测 AI 系统 v2.1
 
+[![CI](https://github.com/MimiJimmy001/Env-Monitor-Analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/MimiJimmy001/Env-Monitor-Analysis/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > 一句话定位：**会调工具、会查标准、会拒答的环境问答 Agent** —— 工具调用 + RAG 的多跳问答系统，Function Calling + 引用溯源 + 全链路 trace 落库，零 LLM API 自动降级。
 
 ## 三个真实跑出的数字
@@ -53,7 +56,7 @@ flowchart TD
 │       ├── realtime.py              # WAQI 实时数据
 │       ├── weather_alerts.py        # 气象预警
 │       ├── data/                    # 引擎数据目录（fetch_data.py 输出到此处）
-│       └── models/                  # 预训练模型（可用 /api/model/train 重训）
+│       └── models/                  # 本地模型缓存（不入库；缺失时自动训练）
 ├── data/
 │   ├── trace.db                     # 问答 trace（自动创建）
 │   └── reports/                     # 每日日报输出（自动创建）
