@@ -15,3 +15,5 @@ _reg.log
 _preflight.err
 data/trace.db
 backend/models/*.pkl
+backend/backend/models/*.pkl
+*.7z
