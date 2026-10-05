@@ -5,6 +5,10 @@
 
 > 一句话定位：**会调工具、会查标准、会拒答的环境问答 Agent** —— 工具调用 + RAG 的多跳问答系统，Function Calling + 引用溯源 + 全链路 trace 落库，零 LLM API 自动降级。
 
+## 项目内容导航
+
+- [项目案例研究](docs/CASE_STUDY.md)：Agent 架构、工具选择评测、RAG 边界、工程取舍和面试讲解
+- [工具选择评测报告](backend/evaluation/results.md)：60 条回归集的真实迭代记录与错误分析
 ## 三个真实跑出的数字
 
 | 指标 | 数值 | 出处 |
