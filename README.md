@@ -7,6 +7,8 @@
 
 ## 项目内容导航
 
+- [可视化与可解释性](docs/VISUAL_GUIDE.md)：4 个以上 Mermaid 思维导图、流程图和指标解释
+
 - [项目案例研究](docs/CASE_STUDY.md)：Agent 架构、工具选择评测、RAG 边界、工程取舍和面试讲解
 - [工具选择评测报告](backend/evaluation/results.md)：60 条回归集的真实迭代记录与错误分析
 ## 三个真实跑出的数字
